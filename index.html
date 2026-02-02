@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Спартак | Фан мини-приложение</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>⚽ Спартак</h1>
+  <span class="subtitle">Фан-прогнозы и новости</span>
+</header>
+
+<div id="score">Очки: <strong>0</strong></div>
+
+<section id="news">
+  <h2>Новости</h2>
+</section>
+
+<section id="predictions">
+  <h2>Прогнозы</h2>
+</section>
+
+<section id="mvp">
+  <h2>MVP матча</h2>
+</section>
+
+<section id="guess">
+  <h2>Угадай счёт</h2>
+  <input id="scoreInput" placeholder="2:1">
+  <button onclick="submitGuess()">Отправить</button>
+</section>
+
+<footer>
+  <p>© Spartak Fan App</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

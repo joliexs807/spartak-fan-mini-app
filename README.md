@@ -1,0 +1,1 @@
+# spartak-fan-mini-app
